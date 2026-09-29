@@ -77,10 +77,11 @@ export default function Home() {
             className="text-blue-600 hover:underline text-sm font-semibold"
           >
             Go to About Page &rarr;
-          </Link>
-          <p className="text-sm">
+          </Link>{" "}
+          <span>or /users, /learn (for learning more)</span>
+          {/* <p className="text-sm">
             Learn more: https://share.gemini.google/WmQwz5ZO16Zm
-          </p>
+          </p> */}
         </div>
       </div>
     </main>
