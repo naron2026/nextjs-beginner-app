@@ -78,6 +78,24 @@ export default function Home() {
           >
             Go to About Page &rarr;
           </Link>{" "}
+          <Link
+            href="/learn"
+            className="text-blue-600 hover:underline text-sm font-semibold"
+          >
+            Go to Learn Page &rarr;
+          </Link>
+          <Link
+            href="/users"
+            className="text-blue-600 hover:underline text-sm font-semibold"
+          >
+            Go to User Page &rarr;
+          </Link>
+          <Link
+            href="/about"
+            className="text-blue-600 hover:underline text-sm font-semibold"
+          >
+            Go to About Page &rarr;
+          </Link>
           <span>or /users, /learn (for learning more)</span>
           {/* <p className="text-sm">
             Learn more: https://share.gemini.google/WmQwz5ZO16Zm
