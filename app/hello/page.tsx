@@ -1,3 +1,8 @@
 export default function HelloPage(){
-    return <h1>Hello my friend</h1>
+    return(
+    <>
+    <p>hello</p>
+     <h1>Hello my friend</h1>
+     </>
+    )
 }
